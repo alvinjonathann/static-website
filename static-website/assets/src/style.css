@@ -1,0 +1,1225 @@
+.lecture {
+  background-color: #f7f7ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.lecture .div {
+  background-color: #f7f7ff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.lecture .overlap {
+  position: absolute;
+  width: 288px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background-image: url(https://c.animaapp.com/eJGsG34m/img/rectangle-2.png);
+  background-size: 100% 100%;
+}
+
+.lecture .frame {
+  display: flex;
+  flex-direction: column;
+  width: 228px;
+  align-items: flex-start;
+  gap: 24px;
+  position: absolute;
+  top: 151px;
+  left: 39px;
+}
+
+.lecture .frame-2 {
+  display: flex;
+  width: 202px;
+  height: 48px;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  position: relative;
+  border-radius: 1000px;
+}
+
+.lecture .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.lecture .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -7px;
+  margin-bottom: -5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #e6e6e6;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .frame-3 {
+  display: flex;
+  width: 202px;
+  height: 48px;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 1000px;
+}
+
+.lecture .vector {
+  position: relative;
+  width: 22.5px;
+  height: 19.5px;
+  margin-left: -0.75px;
+}
+
+.lecture .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -7px;
+  margin-bottom: -5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #276bf0;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .study-verse {
+  position: absolute;
+  top: 23px;
+  left: 54px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .span {
+  color: #000000;
+}
+
+.lecture .text-wrapper-3 {
+  color: #ffffff;
+}
+
+.lecture .frame-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 30px;
+  position: absolute;
+  top: 55px;
+  left: 979px;
+}
+
+.lecture .frame-5 {
+  display: inline-flex;
+  align-items: center;
+  gap: 32px;
+  padding: 12px 40px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 1000px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.lecture .text-wrapper-4 {
+  position: relative;
+  width: 174px;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .ellipse {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.lecture .simple-calendar {
+  position: absolute;
+  width: 388px;
+  height: 324px;
+  top: 156px;
+  left: 995px;
+  overflow: hidden;
+}
+
+.lecture .overlap-group {
+  position: relative;
+  width: 389px;
+  height: 325px;
+  left: -1px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 23px #ececec;
+}
+
+.lecture .december {
+  position: absolute;
+  height: 18px;
+  top: 27px;
+  left: 33px;
+  font-family: "Lato", Helvetica;
+  font-weight: 500;
+  color: #6b7897;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.59px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lecture .overlap-2 {
+  position: absolute;
+  width: 323px;
+  height: 201px;
+  top: 74px;
+  left: 33px;
+}
+
+.lecture .oval {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  top: 69px;
+  left: 90px;
+  background-color: #276bf0;
+  border-radius: 20.57px;
+}
+
+.lecture .calendar {
+  position: absolute;
+  width: 323px;
+  height: 201px;
+  top: 0;
+  left: 0;
+}
+
+.lecture .group {
+  position: relative;
+  width: 322px;
+  height: 200px;
+}
+
+.lecture .numbers {
+  position: absolute;
+  width: 322px;
+  height: 156px;
+  top: 44px;
+  left: 0;
+  overflow: hidden;
+}
+
+.lecture .text-wrapper-5 {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #e1e4e7;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-6 {
+  position: absolute;
+  width: 9px;
+  top: 36px;
+  left: 4px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-7 {
+  position: absolute;
+  top: 71px;
+  left: -1px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-8 {
+  position: absolute;
+  top: 105px;
+  left: -1px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-9 {
+  position: absolute;
+  top: 138px;
+  left: -1px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-10 {
+  position: absolute;
+  top: 138px;
+  left: 50px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-11 {
+  position: absolute;
+  top: 105px;
+  left: 50px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-12 {
+  position: absolute;
+  top: 71px;
+  left: 50px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-13 {
+  position: absolute;
+  width: 9px;
+  top: 36px;
+  left: 55px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-14 {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #e1e4e7;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-15 {
+  position: absolute;
+  top: 138px;
+  left: 100px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-16 {
+  position: absolute;
+  top: 105px;
+  left: 100px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-17 {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .overlap-group-2 {
+  position: absolute;
+  width: 18px;
+  height: 56px;
+  top: 0;
+  left: 101px;
+}
+
+.lecture .text-wrapper-18 {
+  position: absolute;
+  top: 36px;
+  left: 4px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-19 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #e1e4e7;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-20 {
+  position: absolute;
+  top: 138px;
+  left: 151px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-21 {
+  position: absolute;
+  top: 105px;
+  left: 151px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-22 {
+  position: absolute;
+  top: 70px;
+  left: 151px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-23 {
+  position: absolute;
+  width: 17px;
+  top: 36px;
+  left: 152px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .element {
+  position: absolute;
+  top: 1px;
+  left: 151px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #e1e4e7;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-24 {
+  position: absolute;
+  top: 138px;
+  left: 201px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-25 {
+  position: absolute;
+  top: 105px;
+  left: 201px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-26 {
+  position: absolute;
+  top: 70px;
+  left: 201px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-27 {
+  position: absolute;
+  width: 17px;
+  top: 36px;
+  left: 202px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-28 {
+  position: absolute;
+  top: 1px;
+  left: 206px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-29 {
+  position: absolute;
+  top: 138px;
+  left: 253px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-30 {
+  position: absolute;
+  top: 105px;
+  left: 252px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-31 {
+  position: absolute;
+  top: 70px;
+  left: 252px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-32 {
+  position: absolute;
+  width: 17px;
+  top: 36px;
+  left: 253px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-33 {
+  position: absolute;
+  top: 1px;
+  left: 257px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-34 {
+  position: absolute;
+  top: 138px;
+  left: 304px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-35 {
+  position: absolute;
+  top: 105px;
+  left: 303px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-36 {
+  position: absolute;
+  top: 70px;
+  left: 303px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-37 {
+  position: absolute;
+  top: 36px;
+  left: 303px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-38 {
+  position: absolute;
+  top: 1px;
+  left: 308px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #7c86a2;
+  font-size: 14.5px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .days-of-week {
+  position: absolute;
+  width: 315px;
+  height: 20px;
+  top: 0;
+  left: 3px;
+  opacity: 0.65;
+}
+
+.lecture .s-copy {
+  left: 0;
+  position: absolute;
+  width: 11px;
+  height: 19px;
+  top: 0;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #34485e89;
+  font-size: 15.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.lecture .m-copy {
+  position: absolute;
+  width: 14px;
+  height: 19px;
+  top: 0;
+  left: 48px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #34485e89;
+  font-size: 15.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.lecture .t-copy {
+  position: absolute;
+  width: 10px;
+  height: 19px;
+  top: 0;
+  left: 102px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #34485e89;
+  font-size: 15.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.lecture .w-copy {
+  position: absolute;
+  width: 15px;
+  height: 19px;
+  top: 0;
+  left: 149px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #34485e89;
+  font-size: 15.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.lecture .t-copy-2 {
+  position: absolute;
+  width: 10px;
+  height: 19px;
+  top: 0;
+  left: 203px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #34485e89;
+  font-size: 15.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.lecture .f-copy {
+  position: absolute;
+  width: 10px;
+  height: 19px;
+  top: 0;
+  left: 253px;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #34485e89;
+  font-size: 15.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.lecture .text-wrapper-39 {
+  left: 303px;
+  position: absolute;
+  width: 11px;
+  height: 19px;
+  top: 0;
+  font-family: "Nunito", Helvetica;
+  font-weight: 500;
+  color: #34485e89;
+  font-size: 15.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.lecture .shape-wrapper {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 27px;
+  left: 298px;
+  background-color: #f7f8fc;
+  border-radius: 11.29px;
+}
+
+.lecture .shape {
+  left: 7px;
+  position: absolute;
+  width: 8px;
+  height: 12px;
+  top: 6px;
+}
+
+.lecture .img-wrapper {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 27px;
+  left: 332px;
+  background-color: #f7f8fc;
+  border-radius: 11.29px;
+}
+
+.lecture .shape-2 {
+  left: 9px;
+  position: absolute;
+  width: 8px;
+  height: 12px;
+  top: 6px;
+}
+
+.lecture .overlap-3 {
+  position: absolute;
+  width: 642px;
+  height: 347px;
+  top: 57px;
+  left: 321px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.lecture .text-wrapper-40 {
+  position: absolute;
+  height: 29px;
+  top: 36px;
+  left: 32px;
+  font-family: "Lato", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+}
+
+.lecture .frame-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 168px;
+  left: 32px;
+}
+
+.lecture .tasks-friday {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lato", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lecture .frame-7 {
+  display: flex;
+  width: 590px;
+  align-items: flex-end;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.lecture .rectangle {
+  position: relative;
+  width: 20px;
+  height: 17px;
+  margin-bottom: -1px;
+  margin-left: -1px;
+  background-color: #f2f2f3;
+  border-radius: 2px;
+}
+
+.lecture .update-styleguide-an {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  opacity: 0.6;
+  font-family: "Lato", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lecture .frame-8 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 261px;
+  left: 32px;
+}
+
+.lecture .frame-9 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 78px;
+  left: 32px;
+}
+
+.lecture .update-styleguide-an-2 {
+  position: relative;
+  width: 238px;
+  margin-top: -1px;
+  opacity: 0.6;
+  font-family: "Lato", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+}
+
+.lecture .overlap-4 {
+  position: absolute;
+  width: 642px;
+  height: 474px;
+  top: 515px;
+  left: 321px;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.lecture .text-wrapper-41 {
+  position: absolute;
+  height: 29px;
+  top: 22px;
+  left: 32px;
+  font-family: "Lato", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+}
+
+.lecture .frame-10 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 77px;
+  left: 32px;
+}
+
+.lecture .div-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ff7474;
+  border-radius: 12px;
+}
+
+.lecture .text-wrapper-42 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .frame-11 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.lecture .text-wrapper-43 {
+  position: relative;
+  width: 473px;
+  margin-top: -1px;
+  font-family: "Lato", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+}
+
+.lecture .text-wrapper-44 {
+  position: relative;
+  width: 473px;
+  opacity: 0.5;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+}
+
+.lecture .frame-12 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 157px;
+  left: 32px;
+}
+
+.lecture .frame-13 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 237px;
+  left: 32px;
+}
+
+.lecture .frame-14 {
+  display: flex;
+  width: 36px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px;
+  position: relative;
+  background-color: #ff7474;
+  border-radius: 12px;
+}
+
+.lecture .text-wrapper-45 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  margin-right: -3px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.lecture .frame-15 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-right: -45px;
+}
+
+.lecture .frame-16 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 317px;
+  left: 32px;
+}
+
+.lecture .group-2 {
+  position: absolute;
+  width: 19px;
+  height: 474px;
+  top: 0;
+  left: 623px;
+  background-color: #efefef;
+}
+
+.lecture .polygon {
+  top: 2px;
+  left: 5px;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+}
+
+.lecture .polygon-2 {
+  top: 461px;
+  left: 6px;
+  position: absolute;
+  width: 8px;
+  height: 8px;
+}
+
+.lecture .rectangle-2 {
+  position: absolute;
+  width: 19px;
+  height: 117px;
+  top: 19px;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.lecture .overlap-5 {
+  position: absolute;
+  width: 379px;
+  height: 172px;
+  top: 530px;
+  left: 1005px;
+}
+
+.lecture .rectangle-3 {
+  position: absolute;
+  width: 372px;
+  height: 172px;
+  top: 0;
+  left: 0;
+  background-color: #ccdef8;
+  border-radius: 12px;
+}
+
+.lecture .text-wrapper-46 {
+  position: absolute;
+  height: 24px;
+  top: 22px;
+  left: 40px;
+  font-family: "Lato", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.lecture .p {
+  position: absolute;
+  width: 340px;
+  height: 19px;
+  top: 57px;
+  left: 39px;
+  opacity: 0.8;
+  font-family: "Lato", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.59px;
+  line-height: normal;
+}
+
+.lecture .overlap-wrapper {
+  position: absolute;
+  width: 179px;
+  height: 48px;
+  top: 100px;
+  left: 35px;
+}
+
+.lecture .overlap-6 {
+  position: relative;
+  width: 177px;
+  height: 48px;
+  background-image: url(https://c.animaapp.com/eJGsG34m/img/rectangle-1.svg);
+  background-size: 100% 100%;
+}
+
+.lecture .text-wrapper-47 {
+  position: absolute;
+  top: 12px;
+  left: 57px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
